@@ -18,5 +18,5 @@ Amazon Translate (Translation) is a neural machine translation service that deli
 * Boto3 - Python SDK for AWS. It allows you to directly create, update, and delete AWS resources from your Python scripts.
 * Flask - Python Web Framework
 
-![webpage](![Cloud_Project](https://user-images.githubusercontent.com/55619946/141040348-d3ed4d40-41aa-4734-aa06-7016ac404c4e.PNG)
+![webpage](https://user-images.githubusercontent.com/55619946/141040348-d3ed4d40-41aa-4734-aa06-7016ac404c4e.PNG)
 
