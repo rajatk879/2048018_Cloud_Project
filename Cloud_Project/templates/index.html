@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> 2048018 Cloud Assignment </title>
+        <link rel="stylesheet" href="{{ url_for('static',filename='styles/styles.css')}}"> </link>
+    </head>
+    <body style="background-image: url({{url_for('static',filename='img/bg.jpg')}}); background-repeat: no-repeat; background-attachment: fixed; background-size: cover; ">
+        <br>
+        <div class="container">
+            <div class="content" align="center">
+                <center>
+                    <table border=0 alignment=center>
+
+                        <tr>
+                            <td colspan="2">  
+                                <h1 align=center> Cloud Services </h1> 
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"> 
+                                <form method="post">
+                                    <textarea class=content placeholder="Tippe deinen Text..." data-sb-validations="required" name="texttospeech"></textarea>
+                            </td>
+                        </tr><br>
+                        <tr>
+                            <td>
+                                <button type="submit" class=content formaction="/sound">In mp3 konvertieren</button>
+                            </td>
+                            
+                            <td>
+                                <button type="submit" class=content formaction="/translation">Ins Deutsche übersetzen</button> 
+                            </td>
+                        </tr> <br>
+                                </form>
+                        <tr>
+                            <td colspan="2"> <br>
+                                {% if conversion%}
+                                    <h4 class="section-heading">{{ conversion }} <a class=content href="{{ url_for('static', filename='audio/speech.mp3') }}" download>Download</a></h4>
+                                {% endif %}
+                               
+                                {% if trans%}
+                                    <h4> TRANSLATED TEXT IS:  {{ trans }} </h4>
+                                {% endif %}
+                            </td>
+                        </tr> 
+                        <tr>
+                            <td colspan="3">
+                                <h4 > Project by: Rajat Kumar <br><br> Register Number: 2048018 <br> <br> Class: 3 MDS <br> Department of Computer Science <br> Christ Deemed to be University, Bangalore <br><br> Services intergrated: Amazon Polly (Text-to-Speech) <br>  Amazon Translate (Translation) </h1>
+                            </td>
+                        </tr>
+                    </table>
+                </center>
+            </div>
+        </div><br>
+    </body>
+</html>

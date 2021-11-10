@@ -1,0 +1,26 @@
+.container {
+  position: relative;
+  max-width: 800px; 
+  margin: 0 auto; 
+}
+
+.container .content {
+  position: relative; 
+  bottom: 0; 
+  background: rgb(1, 1, 1); 
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1; 
+  width: 100%; 
+  padding: 20px; 
+  text-align: center;
+  font-size: 20;
+  font-family: "copperplate";
+}
+.container .content .left {
+  text-align: left;
+  font-family: "papyrus";
+}
+.container .content .right {
+  text-align: right;
+  font-family: "papyrus";
+}
