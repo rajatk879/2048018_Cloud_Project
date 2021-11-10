@@ -10,8 +10,6 @@ Class: 3 MDS, Department of Computer Science, Christ Deemed to be University, Ba
 
 Amazon Polly (Text-to-Speech) is a service that turns text into lifelike speech, allowing you to create applications that talk, and build entirely new categories of speech-enabled products.
 
-Amazon Comprehend (Natural-Language Processing) is a natural language processing (NLP) service that uses machine learning to find insights and relationships in text. No machine learning experience required.
-
 Amazon Translate (Translation) is a neural machine translation service that delivers fast, high-quality, and affordable language translation.
 
 ## Libraries
