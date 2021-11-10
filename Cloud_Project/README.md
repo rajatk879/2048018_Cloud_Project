@@ -1,7 +1,7 @@
-Project by: Viola D Souza 
+Project by: Rajat Kumar
 
 
-Register Number: 2048060 
+Register Number: 2048018
 
 
 Class: 3 MDS, Department of Computer Science, Christ Deemed to be University, Bangalore
@@ -18,4 +18,5 @@ Amazon Translate (Translation) is a neural machine translation service that deli
 * Boto3 - Python SDK for AWS. It allows you to directly create, update, and delete AWS resources from your Python scripts.
 * Flask - Python Web Framework
 
-![webpage](https://user-images.githubusercontent.com/68042331/140695440-b9c7ec5d-d342-49e8-8765-3e219c3b50b0.PNG)
+![webpage](![Cloud_Project](https://user-images.githubusercontent.com/55619946/141040348-d3ed4d40-41aa-4734-aa06-7016ac404c4e.PNG)
+
